@@ -1,12 +1,3 @@
-To be able to use this library when running python scripts from the terminal you need to add the library to your
- pythonpath which you can do by:
- 1. Opening your bash file, probably ~/.bash_profile
- 2. Add the command:
-    export PYTHONPATH=$PYTHONPATH:path-to-where-tools-is-located
-    to the bash_profile and save it. For example, if tools is in my product-analytics folder I should write
-    export PYTHONPATH=$PYTHONPATH:/Users/alexander/product-analytics
- 3. Done!
-
 A good tutorial on how to use the pymc3 library is found here: https://pymc-devs.github.io/pymc3/notebooks/BEST.html
 
 
